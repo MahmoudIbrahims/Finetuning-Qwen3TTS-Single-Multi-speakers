@@ -29,7 +29,7 @@ import shutil
 
 import torch
 from accelerate import Accelerator
-from finetuning.dataset_multi_speaker import TTSDataset
+from dataset_multi_speaker import TTSDataset
 from qwen_tts.inference.qwen3_tts_model import Qwen3TTSModel
 from safetensors.torch import save_file
 from torch.optim import AdamW
